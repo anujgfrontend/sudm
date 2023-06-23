@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+<link rel="shortcut icon" href="img/fav.png" />
+<title>UDD-UP: Urban Development Department</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+<!-- Icomoon Icons CSS -->
+<link rel="stylesheet" href="fonts/icomoon/icomoon.css" />
+
+<!-- Master CSS -->
+<link rel="stylesheet" href="css/main.css" />
+
+<!-- Daterange CSS -->
+<link rel="stylesheet" href="vendor/daterange/daterange.css" />
+
+<!-- jQueryUI CSS -->
+<link rel="stylesheet" href="css/jquery-ui.css" />
+
+<!-- Datepickers CSS -->
+<link rel="stylesheet" href="css/datepicker.css" />
+
+<!-- Morris CSS -->
+<link rel="stylesheet" href="vendor/morris/morris.css" />
+
+<!-- Circliful CSS -->
+<link rel="stylesheet" href="vendor/circliful/circliful.css" />
+
+<!-- Tags CSS -->
+<link href="vendor/tags/tagmanager.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<!-- Loading start -->
+<div id="loading-wrapper">
+  <div id="loader"></div>
+</div>
+<!-- Loading end --> 
+
+<!--  .app-wrap -->
+<div class="app-wrap"> 
+  
+  <!--  .app-heading -->
+  <header class="app-header">
+    <div class="container-fluid"> 
+      
+      <!-- Row start -->
+      <div class="row">
+        <div class="col-xl-7 col-lg-7 col-md-6 col-sm-7 col-7 p-0"> 
+          
+          <!--  .logo -->
+          <div class="logo-block"> <a href="index.html" class="logo"> <img src="img/logo.png" alt="" /> <span>UDD-UP </span> </a> <a class="mini-nav-btn" href="#" id="onoffcanvas-nav"> <i class="open"></i> <i class="open"></i> <i class="open"></i> </a> <a href="#app-side" data-toggle="onoffcanvas" class="onoffcanvas-toggler"
+								aria-expanded="true"> <i class="open"></i> <i class="open"></i> <i class="open"></i> </a> </div>
+          <!-- END .logo --> 
+          
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-5 col-5"> 
+          
+          <!-- Header actions start -->
+          <ul class="header-actions">
+            <!--            <li> <a href="login.html"><i class="icon-person_outline"></i> Login</a> </li>-->
+            <li class="dropdown"> <a href="#" id="userSettings" class="user-settings" data-toggle="dropdown"
+									aria-haspopup="true"> <span class="avatar"> </span> <span class="user-name">User Name</span> <i class="icon-chevron-small-down downarrow"></i> </a>
+              <div class="dropdown-menu lg dropdown-menu-right" aria-labelledby="userSettings">
+                <div class="admin-settings">
+                  <ul class="admin-settings-list">
+                    <li> <a href="profile.html"> <span class="icon icon-face"></span> <span class="text-name">My Profile</span> </a> </li>
+                  </ul>
+                  <div class="actions"> <a href="login.html" class="button">Logout</a> </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <!-- Header actions end --> 
+          
+        </div>
+      </div>
+      <!-- Row start --> 
+      
+    </div>
+  </header>
+  <!-- END: .app-heading --> 
+  
+  <!--  .app-container -->
+  <div class="app-container"> 
+    
+    <!--  .app-side -->
+    <aside class="app-side fixed" id="app-side"> 
+      
+      <!--  .side-content -->
+      <div class="side-content "> 
+        
+        <!-- Nav scroll start -->
+        <div class="sidebarNavScroll"> 
+          
+          <!--  .side-nav -->
+          <nav class="side-nav"> 
+            
+            <!-- : side-nav-content -->
+            <ul class="unifyMenu" id="unifyMenu">
+              <li class="selected"> <a href="index.html"> <span class="nav-title"> <i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard</span> </a> </li>
+              <li> <a href="#" class="has-arrow" aria-expanded="false"> <span class="nav-title"><i class="fa fa-globe" aria-hidden="true"></i> Global Master</span> </a>
+                <ul aria-expanded="false">
+                   <li> <a href="District.html"><i class="fa fa-angle-right" aria-hidden="true"></i> District</a> </li>
+                  <li> <a href="ULB-Type.html"><i class="fa fa-angle-right" aria-hidden="true"></i> ULB Type</a> </li>
+                  <li> <a href="Proposed-By.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Proposed By</a> </li>
+                  <li> <a href="Project-Type.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Project Type</a> </li>
+                  <li> <a href="Technical-Evaluation-Body.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Technical Evaluation Body</a> </li>
+                </ul>
+              </li>
+              <li> <a href="#" class="has-arrow" aria-expanded="false"> <span class="nav-title"><i class="fa fa-building" aria-hidden="true"></i> UDD Masters</span> </a>
+                <ul aria-expanded="false">
+                <li> <a href="Scheme-Name.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Scheme Name</a> </li>
+                  <li> <a href="Proposal-DPR-Master.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Proposal/DPR Master</a> </li>
+                  <li> <a href="Proposal-Wetting.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Proposal Wetting</a> </li>
+                  <li> <a href="Technical-Survey-Body.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Technical Survey Body</a> </li>
+                </ul>
+              </li>
+              <li> <a href="#" class="has-arrow" aria-expanded="false"> <span class="nav-title"><i class="fa fa-refresh" aria-hidden="true"></i>Transaction</span> </a>
+                <ul aria-expanded="false">
+                  <li> <a href="Work-Plan.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Work Plan</a> </li>
+                  <li> <a href="Payment-Stages.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Payment Stages</a> </li>
+                  <li> <a href="Release-fund-html"><i class="fa fa-angle-right" aria-hidden="true"></i> Release fund</a> </li>
+                  <li> <a href="Work-Progress.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Work Progress (By ULBS)</a> </li>
+                </ul>
+              </li>
+              <li> <a href="#" class="has-arrow" aria-expanded="false"> <span class="nav-title"><i class="fa fa-bar-chart" aria-hidden="true"></i>Reports</span> </a>
+                <ul aria-expanded="false">
+            <li> <a href="Karya-Yojna.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Karya Yojna(Work Plan)</a> </li>
+                  <li> <a href="Proposals-Received.html"><i class="fa fa-angle-right" aria-hidden="true"></i> List of Proposals Received</a> </li>
+                  <li> <a href="Proposal-Wetted.html"><i class="fa fa-angle-right" aria-hidden="true"></i> List of Proposal Wetted</a> </li>
+                  <li> <a href="Projects-Completed.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Projects Completed</a> </li>
+                  <li> <a href="Projects-Works-waiting-for-second-release.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Projects/Works waiting for second release</a> </li>
+                  <li> <a href="Projects-Works-not-updated-from-last-one-months.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Projects/Works not updated from last one months</a> </li>
+                </ul>
+              </li>
+              <li> <a href="user-master.html"> <span class="nav-title"><i class="fa fa-handshake-o" aria-hidden="true"></i> No. of Proposal Received</span> </a> </li>
+              <li> <a href="program-master.html"> <span class="nav-title"><i class="fa fa-file-text-o" aria-hidden="true"></i> No. of Proposal Work</span> </a> </li>
+              <li> <a href="program-time-table.html"> <span class="nav-title"><i class="fa fa-file-text-o" aria-hidden="true"></i> Work Plan</span> </a> </li>
+              <li> <a href="program-budget.html"> <span class="nav-title"><i class="fa fa-money" aria-hidden="true"></i> Sanction Amount</span> </a> </li>
+              <li> <a href="program-registration.html"> <span class="nav-title"><i class="fa fa-money" aria-hidden="true"></i> Disbursed Amount</span> </a> </li>
+              <li> <a href="program-registration.html"> <span class="nav-title"><i class="fa fa-money" aria-hidden="true"></i> Balance Amount</span> </a> </li>
+              <li> <a href="program-registration.html"> <span class="nav-title"><i class="fa fa-tasks" aria-hidden="true"></i> Average Financial Progress</span> </a> </li>
+              <li> <a href="program-registration.html"> <span class="nav-title"><i class="fa fa-tasks" aria-hidden="true"></i> Average Physical Progress</span> </a> </li>
+            </ul>
+            <!-- END: side-nav-content --> 
+            
+          </nav>
+          <!-- END: .side-nav --> 
+          
+        </div>
+        <!-- Nav scroll end --> 
+        
+      </div>
+      <!-- END: .side-content --> 
+      
+    </aside>
+    <!-- END: .app-side --> 
+    
+    <!--  .app-main -->
+    <div class="app-main"> 
+      
+      <!--  .main-heading -->
+      <header class="widgets-header">
+        <div class="container-fluid">
+          <div class="row gutters">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="welcome-msg pt-5 mb-5">
+                <div class="welcome-title"> Work Plan </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#" class="default-color"></a>Dashboard </li>
+				  <li class="breadcrumb-item">Transaction</li>
+                <li class="breadcrumb-item active">Work Plan</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- END: .main-heading --> 
+      
+      <!--  .main-content -->
+      <div class="main-content">
+        <div class="row gutters">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="section-container section-top-margin">
+              <div class="section-wrapper white left">
+                <div class="row gutters">	
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="form-group">
+                      <label>   </label>
+                      <input type="text" class="form-control" placeholder="">
+                    </div>
+                  </div>
+					
+					
+					
+                  <div class="col-xl-12 col-lg col-md-12 col-sm-12 col-12">
+                    <div class="text-center mt-4">
+                      <button type="button" class="btn btn-success btn-rounded">Submit</button>
+                      <button type="button" class="btn btn-danger btn-rounded">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END: .main-content --> 
+      
+      <!--  .main-footer -->
+      <footer class="main-footer text-center"> Copyright © 2023-24 Urban Development Department, Uttar Pradesh | All rights reserved
+        
+        
+        Powered by <a href="https://www.margsoft.com/" target="_blank">MARGSOFT Technologies (P) Ltd. </a> </footer>
+      <!-- END: .main-footer --> 
+      
+    </div>
+    <!-- END: .app-main --> 
+    
+  </div>
+  <!-- END: .app-container --> 
+  
+</div>
+<!-- END: .app-wrap --> 
+
+<!-- jQuery JS. --> 
+<script src="js/jquery.js"></script> 
+<script src="js/jquery-ui.min.js"></script> 
+
+<!-- Tether Js, then other JS. --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="vendor/unifyMenu/unifyMenu.js"></script> 
+<script src="vendor/onoffcanvas/onoffcanvas.js"></script> 
+<script src="js/moment.js"></script> 
+
+<!-- News Ticker JS --> 
+<script src="vendor/newsticker/newsTicker.min.js"></script> 
+<script src="vendor/newsticker/custom-newsTicker.js"></script> 
+
+<!-- Slimscroll JS --> 
+<script src="vendor/slimscroll/slimscroll.min.js"></script> 
+<script src="vendor/slimscroll/custom-scrollbar.js"></script> 
+
+<!-- Daterange JS --> 
+
+<!-- Morris Graphs --> 
+
+<!-- Circliful --> 
+<script src="vendor/circliful/circliful.min.js"></script> 
+<script src="vendor/circliful/circliful.custom.js"></script> 
+
+<!-- Common JS --> 
+<script src="js/common.js"></script>
+</body>
+</html>
